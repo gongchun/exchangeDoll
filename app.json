@@ -13,5 +13,31 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
+  "tabbar":{
+    "list":[{
+      "pagePath": "pages/home/home",
+      "text": "home",
+      "iconPath": "img/home/home.png",
+      "selectedIconPath": "img/home/home_select.png"
+    },
+    {
+      "pagePath": "pages/record/record",
+      "text": "record",
+      "iconPath": "img/record/record.png",
+      "selectedIconPath": "img/record/record_select.png"
+    },
+    {
+      "pagePath": "pages/rank/rank",
+      "text": "rank",
+      "iconPath": "img/rank/rank.png",
+      "selectedIconPath": "img/rank/rank_select.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "mine",
+      "iconPath": "img/mine/mine.png",
+      "selectedIconPath": "img/mine/mine_select.png"
+    }]
+  },
   "sitemapLocation": "sitemap.json"
 }
